@@ -10,4 +10,3 @@ namespace calories_trecker;
 public partial class App : Application
 {
 }
-

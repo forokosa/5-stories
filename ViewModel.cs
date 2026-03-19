@@ -81,4 +81,4 @@ public class MainViewModel : INotifyPropertyChanged
 
     private void OnPropertyChanged(string name)
         => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-}
+} 
