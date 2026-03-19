@@ -1,0 +1,48 @@
+﻿<Window x:Class="calories_trecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калории" Height="450" Width="400">
+
+    <StackPanel Margin="10">
+
+        <TextBlock Text="Название"/>
+        <TextBox Text="{Binding FoodName}" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Вес (г)"/>
+        <TextBox Text="{Binding Weight}" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Калории"/>
+        <TextBox Text="{Binding Calories}" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Приём пищи"/>
+        <ComboBox SelectedValue="{Binding MealTime}"
+                  SelectedValuePath="Content"
+                  Margin="0,0,0,5">
+            <ComboBoxItem Content="Завтрак"/>
+            <ComboBoxItem Content="Обед"/>
+            <ComboBoxItem Content="Ужин"/>
+            <ComboBoxItem Content="Перекус"/>
+        </ComboBox>
+
+        <Button Content="Добавить"
+                Click="Add_Click"
+                Margin="0,0,0,10"/>
+
+        <ListBox ItemsSource="{Binding Foods}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="{Binding Name}"/>
+                        <TextBlock Text="{Binding Weight, StringFormat=Вес: {0} г}"/>
+                        <TextBlock Text="{Binding Calories, StringFormat=Калории: {0}}"/>
+                        <TextBlock Text="{Binding MealTime, StringFormat=Приём: {0}}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <TextBlock Text="Всего калорий:" Margin="0,10,0,0"/>
+        <TextBlock Text="{Binding TotalCalories}" FontSize="16"/>
+
+    </StackPanel>
+</Window>

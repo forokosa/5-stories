@@ -1,0 +1,19 @@
+C:\Users\User\Desktop\calories trecker\bin\Debug\net10.0-windows\calories trecker.exe
+C:\Users\User\Desktop\calories trecker\bin\Debug\net10.0-windows\calories trecker.deps.json
+C:\Users\User\Desktop\calories trecker\bin\Debug\net10.0-windows\calories trecker.runtimeconfig.json
+C:\Users\User\Desktop\calories trecker\bin\Debug\net10.0-windows\calories trecker.dll
+C:\Users\User\Desktop\calories trecker\bin\Debug\net10.0-windows\calories trecker.pdb
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker_MarkupCompile.cache
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.g.resources
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.AssemblyInfo.cs
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.dll
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\refint\calories trecker.dll
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.pdb
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\calories trecker.genruntimeconfig.cache
+C:\Users\User\Desktop\calories trecker\obj\Debug\net10.0-windows\ref\calories trecker.dll
